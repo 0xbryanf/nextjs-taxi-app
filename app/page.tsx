@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Booking from '@/components/Booking/Booking'
+import MapBoxMap from '@/components/Map/MapBoxMap'
 
 export default function Home() {
   return (
@@ -8,8 +9,8 @@ export default function Home() {
         <div>
           <Booking />
         </div>
-        <div className='col-span-2 bg-red-100'>
-          Map
+        <div className='col-span-2'>
+          <MapBoxMap />
         </div>
       </div>
     </div>
